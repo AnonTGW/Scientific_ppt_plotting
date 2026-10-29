@@ -57,7 +57,7 @@ def demo_electric_field(out_dir):
     ax.plot(depth_um, case_a / 1e5, color=BLUE, label="Case A (illustrative)")
     ax.plot(depth_um, case_b / 1e5, color=VERMILION, linestyle="--",
             label="Case B (illustrative)")
-    ax.set_xlabel(r"Depth ($\\mu$m)")
+    ax.set_xlabel(r"Depth ($\mu$m)")
     ax.set_ylabel(r"Electric field ($10^{5}$ V/cm)")
     ax.set_xlim(0, 5)
     ax.set_ylim(bottom=0)
